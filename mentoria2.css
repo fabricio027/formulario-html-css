@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bfd7e4;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+header {
+  background-color: #293241;
+  width: 100%;
+  height: 465px;
+  text-align: center;
+  color: #fff;
+  padding-top: 107px;
+}
+
+h1,
+h2,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+  padding: 50px;
+  width: 750px;
+  background-color: #f67669;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+form {
+  margin: 0 auto 392px;
+  padding: 32px 64px 64px;
+  width: 750px;
+  background-color: #fff;
+}
+
+label {
+  color: #4e4958;
+}
+
+span {
+  color: #c1bccc;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #e6e6f0;
+  background-color: #fafafc;
+  height: 55px;
+  border-radius: 8px;
+  padding-left: 15px;
+  font-size: 20px;
+  color: #4e4958;
+  margin-bottom: 16px;
+}
+
+input:invalid {
+  border: 1px solid #f00;
+}
+
+.input-data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-container {
+  display: flex;
+  gap: 20px;
+}
+
+.input-half {
+  width: 300px;
+}
+
+.input-half2 {
+  width: 140px;
+}
+
+fieldset {
+  border: none;
+  margin-top: 32px;
+}
+
+legend {
+  color: #253b51;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 8px;
+}
+
+select {
+  appearance: none;
+}
+
+textarea {
+  height: 170px;
+  resize: none;
+}
+
+.checkbox-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  all: unset;
+  display: inline-block;
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #fafafc;
+  border: 1px solid #e6e6f0;
+}
+
+input[type="checkbox"]:focus {
+  border: 1px solid #00f;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url("images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  width: 622px;
+  background-color: #f67669;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+button:hover {
+  background-color: #b25b52;
+}
